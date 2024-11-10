@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(246, 241, 241);
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #080000;
+}
+@font-face {
+  font-family: pf1;
+  src: url(./assets/file.woff2);
+}
+@font-face {
+  font-family: pf2;
+  src: url(./assets/madefor-text.var.original.woff2);
+}
+@font-face {
+  font-family: pf3;
+  src: url(./assets/file3.woff2);
+}@font-face {
+  font-family: pf4;
+  src: url(./assets/file4.woff2);
+}@font-face {
+  font-family: pf5;
+  src: url(./assets/file5.woff2);
+}
+#page1-in{
+  position: relative;
+  perspective: 1000px;
+}
+#section2{
+  position: relative;
+  perspective: 1000px;
+}
+#tiltDiv{
+  width: fit-content;
+  
+}
+.rotateText{
+  transform-origin:100% 70% ;
+}
+
+#page1 {
+  overflow-x: hidden;
+  overflow-y: hidden; 
+}
